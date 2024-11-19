@@ -53,3 +53,7 @@ print(2**3)
 
 print(5/2)
 print(5//2.)
+
+
+print(26//2)
+print(160/13)
