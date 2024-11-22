@@ -1,10 +1,17 @@
 
 
 
-a = 6 
+start_h = int(input('start time:'))
+start_m = int(input('start minute:'))
+dur = int(input('duration in minutes:'))
 
-b = 3
 
-a /=2 * 3
 
-print(a)
+# start_m = ((start_m+dur) % 60)
+start_m = start_m + dur
+start_h = start_h + start_m // 60
+
+print(start_h % 24,":",start_m % 60, sep='')
+
+
+print(4%1)
