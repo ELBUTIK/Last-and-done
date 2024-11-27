@@ -6,7 +6,5 @@
 
 
 n = int(input())
-
 n = n >= 100
-
 print(n)
